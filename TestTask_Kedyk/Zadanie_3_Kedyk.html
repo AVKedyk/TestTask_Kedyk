@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie_3</title>
+</head>
+<body>
+
+<script>
+    let array = [];
+    let kol = +prompt("Введите количество цифр в массиве");
+    for (let i = 0; i < kol; i++) {
+        let num = prompt("Введите число");
+        array.push(num);{
+            if (array[i]%3==0)
+                console.log('Число кратное 3: '+array[i])
+        }
+    }
+    console.log('Изначальный массив: '+array)
+document.write('Ответ в консоли браузера!')
+</script>
+</body>
+</html>
